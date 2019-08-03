@@ -36,7 +36,9 @@ JS解密案例
 ├── 66ip                               // -----66ip代理----
 │   ├── ip66_1.js                      // 无cookie状态或cookie过期状态返回的js
 │   ├── ip66_2.js                      // 解析页面返回的js中 生成cookie的js
+│   ├── ip66_3.js                      // 解析页面返回的js中 生成cookie的js(测试于20190803)
 │   ├── ip66.py                        // Python 版完整demo
+│   ├── ip66-0803.py                   // Python 版完整demo(测试于20190803)
 ├── aqi                                // -----中国空气质量在线监测分析平台-----
 │   ├── aqi.js                         // js加密逻辑
 │   ├── aqi_spider.py                  // 中国空气质量在线监测分析平台爬取demo
