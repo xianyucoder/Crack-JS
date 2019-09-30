@@ -5,7 +5,7 @@
 
 漫画柜 | 财联社 | 中国空气质量在线监测分析平台 | 66ip代理 | 零度ip | 国家企业信用信息公示系统
 | 中国产品大目录 | JSFuck | 咪咕视频 | 房天下 | 新浪微博 | 新浪二手房 | 极贷助手
-| 裁判文书网 | 空中网 | 粉笔网 | 叮当快药 | 58同城 | wallhere
+| 裁判文书网 | 空中网 | 粉笔网 | 叮当快药 | 58同城 | wallhere
 
 | Author  | 咸鱼 |
 | --- | --- |
@@ -37,15 +37,14 @@
 - [x] [【新浪微博】 密码加密](https://mp.weixin.qq.com/s/SuVGxmglk59Z4TwyavU7tw)
 - [x] [【极贷助手】 密码加密](https://mp.weixin.qq.com/s/JykieBFX9Kwg8sBOQcyOhg)
 - [x] [【裁判文书】 加密分析](https://mp.weixin.qq.com/s/LRsh0iV3eUURxIWterflFA)
-- [x] [【空中网】 加密分析](https://mp.weixin.qq.com/s/P289l0grNLz9dxv6FmIXwA)
-- [x] [【粉笔网】 加密分析](https://mp.weixin.qq.com/s/-KzAhBZpH0cbD-scMg2W4A)
+- [x] [【空中网】 密码加密](https://mp.weixin.qq.com/s/P289l0grNLz9dxv6FmIXwA)
+- [x] [【粉笔网】 密码加密](https://mp.weixin.qq.com/s/-KzAhBZpH0cbD-scMg2W4A)
 - [x] [【叮当快药】 爬取分析](https://mp.weixin.qq.com/s/SEDLwzlIjopb6cO1so5xmA)
-- [x] [【58同城】 加密分析](https://mp.weixin.qq.com/s/gPlniaUfyDk4-hVeSoFGcQ)
-
+- [x] [【58同城】 密码加密](https://mp.weixin.qq.com/s/gPlniaUfyDk4-hVeSoFGcQ)
 
 ---- ---
 ### 反爬绕过教程
-- [x] [【wallhere】CloudFlare 金盾5秒如何绕过](https://mp.weixin.qq.com/s/sxeqOt-s3d8M8NrqKyjhzA)
+- [x] [【wallhere】CloudFlare 金盾5秒如何绕过](https://mp.weixin.qq.com/s/sxeqOt-s3d8M8NrqKyjhzA)
 ---- ---
 
 # 目录
@@ -128,7 +127,7 @@ JS解密案例
 反爬绕过案例
 │
 ├── wallhere_spider                    // -----wallwhere-----
-│   ├── use_pypackage_anti_cloudflare.py // 使用现成的python包对抗金盾5秒
-│   ├── spider.py                      // wallhere网站的爬取demo
+│   ├── use_pypackage_anti_cloudflare.py // 使用现成的python包对抗金盾5秒
+│   ├── spider.py                      // wallhere网站的爬取demo
 
 ```
