@@ -119,7 +119,7 @@ JS解密案例
 ├── 58tc                               // ---关于58同城密码加密的分析-----
 │   ├── pass.js                        // 密码加密 js demo
 ├── spider_dingdang                    // ---关于叮当快药的爬取demo-----
-│   ├── dingdang.py                    // 叮当快药的的爬取demo
+│   ├── dingdang.py                    // 叮当快药的爬取demo
 
 ```
 
@@ -129,6 +129,6 @@ JS解密案例
 │
 ├── wallhere_spider                    // -----wallwhere-----
 │   ├── use_pypackage_anti_cloudflare.py // 使用现成的python包对抗金盾5秒
-│   ├── spider.py                      // wallhere 网站的爬取demo
+│   ├── spider.py                      // wallhere网站的爬取demo
 
 ```
