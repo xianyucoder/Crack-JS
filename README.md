@@ -4,7 +4,8 @@
 犀牛数据 | 美团美食 | 企名片 | 七麦数据 | 淘大象 | 梦幻西游藏宝阁 |
 
 漫画柜 | 财联社 | 中国空气质量在线监测分析平台 | 66ip代理 | 零度ip | 国家企业信用信息公示系统
-| 中国产品大目录
+| 中国产品大目录 | JSFuck | 咪咕视频 | 房天下 | 新浪微博 | 新浪二手房 | 极贷助手
+| 裁判文书网 | 空中网 | 粉笔网 | 叮当快药 | 58同城 | wallhere
 
 | Author  | 咸鱼 |
 | --- | --- |
@@ -13,7 +14,9 @@
 | Introduce | 数据解密、反爬处理、逆向教程 |
 
 
-## 一、代码配套说明
+## 代码配套教程
+
+### 加密分析教程
 - [x] [【零度】IP页面token参数加密逆向](https://mp.weixin.qq.com/s/B5jAhpqKmdyw4Eo6q7f2Kw)
 - [x] [【66ip】cookie生成加密逆向](https://mp.weixin.qq.com/s/B5jAhpqKmdyw4Eo6q7f2Kw)
 - [x] [【中国空气质量在线监测分析平台解密】数据解密]()
@@ -27,10 +30,27 @@
 - [x] [【犀牛数据】 列表数据解密](https://mp.weixin.qq.com/s/llvoP-PYOoxuBzZxRbu1nQ)
 - [x] [【国家企业信用信息公示系统公告】 公告数据爬取 破解加速乐]()
 - [x] [【中国产品大目录】 加速乐]()
+- [x] [【某爬虫闯关网站】 如何处理JSFuck](https://mp.weixin.qq.com/s/poXgxVcEHnJfVtwZ7qoyZw)
+- [x] [【咪咕视频】 密码加密与指纹加密分析](https://mp.weixin.qq.com/s/5aAMgz33cRJUoRH6CvWGqg)
+- [x] [【房天下】 密码加密](https://mp.weixin.qq.com/s/R_9W2TKcMzKK46nOHystQw)
+- [x] [【新浪二手房】 密码加密](https://mp.weixin.qq.com/s/R_9W2TKcMzKK46nOHystQw)
+- [x] [【新浪微博】 密码加密](https://mp.weixin.qq.com/s/SuVGxmglk59Z4TwyavU7tw)
+- [x] [【极贷助手】 密码加密](https://mp.weixin.qq.com/s/JykieBFX9Kwg8sBOQcyOhg)
+- [x] [【裁判文书】 加密分析](https://mp.weixin.qq.com/s/LRsh0iV3eUURxIWterflFA)
+- [x] [【空中网】 加密分析](https://mp.weixin.qq.com/s/P289l0grNLz9dxv6FmIXwA)
+- [x] [【粉笔网】 加密分析](https://mp.weixin.qq.com/s/-KzAhBZpH0cbD-scMg2W4A)
+- [x] [【叮当快药】 爬取分析](https://mp.weixin.qq.com/s/SEDLwzlIjopb6cO1so5xmA)
+- [x] [【58同城】 加密分析](https://mp.weixin.qq.com/s/gPlniaUfyDk4-hVeSoFGcQ)
+
+
+---- ---
+### 反爬绕过教程
+- [x] [【wallhere】CloudFlare 金盾5秒如何绕过](https://mp.weixin.qq.com/s/sxeqOt-s3d8M8NrqKyjhzA)
 ---- ---
 
 # 目录
 
+## JS解密案例目录
 ```
 JS解密案例
 │
@@ -74,4 +94,41 @@ JS解密案例
 ├── baikewanjia                        // -----中国产品大目录-----
 │   ├── baikewanjia.js                 // 中国产品大目录 生成cookie的js
 │   ├── baikewanjia.py                 // 中国产品大目录首页爬取demo
+├── jsfuck                             // -----关于JSFuck的处理-----
+│   ├── jsfuck.js                      // 关于JSFuck的示例
+├── migu_video                         // --关于咪咕视频密码加密与指纹加密的分析-----
+│   ├── password.js                    // 密码加密 js demo
+│   ├── fingerprint+fingerprintdetail.js // 关于指纹加密的 js demo
+├── fangtianxia-rsa                    // ---关于房天下密码加密的分析-----
+│   ├── fangtianxia.js                 // 密码加密 js demo
+├── xinlangesf                         // ---关于新浪二手房登陆密码加密的分析-----
+│   ├── esf.js                         // 密码加密js demo【RSA加密和房天下加密一样】
+├── weibo                              // ---关于新浪登陆密码加密的分析-----
+│   ├── sp.js                          // 密码加密 js demo
+├── jidaizhushou                       // ---关于极贷助手密码加密的分析-----
+│   ├── jidaizhushou.js                // 密码加密 js demo
+├── wenshu190902                       // ---关于裁判文书网0902版加密参数分析-----
+│   ├── cipher.js                      // 加密参数 cipher js demo
+│   ├── content_list.js                // 列表页内容解密 js demo
+│   ├── pageld.js                      // 加密参数 pageld js demo
+│   ├── RequestVerificationToken.js    // 加密参数 RequestVerificationToken js demo
+├── kongzhongwang                      // ---关于空中网密码加密的分析-----
+│   ├── kongzhongwang.js               // 密码加密 js demo
+├── fenbiwang                          // ---关于粉笔网密码加密的分析-----
+│   ├── fenbiwang.js                   // 密码加密 js demo
+├── 58tc                               // ---关于58同城密码加密的分析-----
+│   ├── pass.js                        // 密码加密 js demo
+├── spider_dingdang                    // ---关于叮当快药的爬取demo-----
+│   ├── dingdang.py                    // 叮当快药的的爬取demo
+
+```
+
+## 反爬绕过案例目录
+```
+反爬绕过案例
+│
+├── wallhere_spider                    // -----wallwhere-----
+│   ├── use_pypackage_anti_cloudflare.py // 使用现成的python包对抗金盾5秒
+│   ├── spider.py                      // wallhere 网站的爬取demo
+
 ```
