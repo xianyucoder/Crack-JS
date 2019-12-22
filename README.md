@@ -1,15 +1,14 @@
 # Crack-JS
 🕷🎯Python3爬虫实战、JS加解密、逆向教程
 
-犀牛数据 | 美团美食 | 企名片 | 七麦数据 | 淘大象 | 梦幻西游藏宝阁 |
-
-漫画柜 | 财联社 | 中国空气质量在线监测分析平台 | 66ip代理 | 零度ip | 国家企业信用信息公示系统
+犀牛数据 | 美团美食 | 企名片 | 七麦数据 | 淘大象 | 梦幻西游藏宝阁 | 红薯中文网 | 漫画柜 | 财联社 | 中国空气质量在线监测分析平台 | 66ip代理 | 零度ip | 国家企业信用信息公示系统
 | 中国产品大目录 | JSFuck | 咪咕视频 | 房天下 | 新浪微博 | 新浪二手房 | 极贷助手
-| 裁判文书网 | 空中网 | 粉笔网 | 叮当快药 | 58同城 | wallhere
+| 裁判文书网 | 空中网 | 粉笔网 | 叮当快药 | 58同城 | wallhere | 豆瓣读书 | google 镜像站 | 
+| openlaw | X里文学 | 刺猬猫小说 | 
 
 | Author  | 咸鱼 |
 | --- | --- |
-| Email | 872887042@qq.com |
+| Email | daihuangj@gmail.com |
 | 微信公众号 | 咸鱼学Python |
 | Introduce | 数据解密、反爬处理、逆向教程 |
 
@@ -41,7 +40,12 @@
 - [x] [【粉笔网】 密码加密](https://mp.weixin.qq.com/s/-KzAhBZpH0cbD-scMg2W4A)
 - [x] [【叮当快药】 爬取分析](https://mp.weixin.qq.com/s/SEDLwzlIjopb6cO1so5xmA)
 - [x] [【58同城】 密码加密](https://mp.weixin.qq.com/s/gPlniaUfyDk4-hVeSoFGcQ)
-
+- [x] [【红薯中文网】正文加密解析](https://mp.weixin.qq.com/s/YbZlz5DpvfGKix7bh5TvVg)
+- [x] [【google 镜像站】正文加密](https://mp.weixin.qq.com/s/ny5JMVyaaUsp166kCsvqqA)
+- [x] [【豆瓣读书】搜索结果加密](https://mp.weixin.qq.com/s/Vi1-o5ruTlr7mqHZ6gxXRg)
+- [x] [【刺猬猫小说】小说正文加密](https://mp.weixin.qq.com/s/STAWu31fQakOgROfCs-4-g)
+- [x] [【X里文学】小说正文加密](https://mp.weixin.qq.com/s/LorUKbrS2gZigiMiJq6zEg)
+- [x] [【openlaw】登陆加密](https://mp.weixin.qq.com/s/PpqYwuQc2myMigZA1Ejb6w)
 ---- ---
 ### 反爬绕过教程
 - [x] [【wallhere】CloudFlare 金盾5秒如何绕过](https://mp.weixin.qq.com/s/sxeqOt-s3d8M8NrqKyjhzA)
@@ -119,7 +123,18 @@ JS解密案例
 │   ├── pass.js                        // 密码加密 js demo
 ├── spider_dingdang                    // ---关于叮当快药的爬取demo-----
 │   ├── dingdang.py                    // 叮当快药的爬取demo
-
+├── hongshuwang                        // ---关于红薯中文网正文加密的分析----
+│   ├── hongshuwang.js                 // 红薯中文网的js demo
+├── googlejx                           // ---关于google镜像站正文加密的分析--
+│   ├── googlejx.js                    // google镜像站的js demo
+├── doubandushu                        // ---关于豆瓣读书搜索结果加密的分析---
+│   ├── doubandushu.js                 // 豆瓣读书搜索结果加密的js demo
+├── ciweimao                           // ---关于刺猬猫正文加密的分析-----
+│   ├── ciweimao.js                    // 刺猬猫正文加密的js demo
+├── alireader                          // ---关于X里文学正文加密的分析-----
+│   ├── alireader.js                   // X里文学正文加密的js demo
+├── openlaw                            // ---关于openlaw登陆密码的加密分析--
+│   ├── openlaw.js                     // openlaw登陆密码的js demo
 ```
 
 ## 反爬绕过案例目录
